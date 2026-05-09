@@ -1,8 +1,0 @@
-class CodeExecutor:
-    def generate_code(self, task):
-        # 模拟代码生成
-        return f"# Generated code for: {task}\nimport pandas as pd\nprint('Processing data...')\n"
-
-    def fix_code(self, code, feedback):
-        # 模拟修复逻辑
-        return code + f"\n# Fixed: {feedback}"
