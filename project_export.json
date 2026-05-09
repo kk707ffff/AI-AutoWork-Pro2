@@ -1,0 +1,21 @@
+{
+  "name": "my-package",
+  "version": "1.0.0",
+  "description": "A sample project",
+  "dependencies": [
+    "requests",
+    "numpy"
+  ],
+  "files": {
+    "src/main.py": "print('Hello World')"
+  },
+  "tasks": [
+    {
+      "name": "init",
+      "action": "print_message",
+      "params": {
+        "message": "Project initialized"
+      }
+    }
+  ]
+}
