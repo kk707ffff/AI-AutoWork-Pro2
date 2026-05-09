@@ -1,0 +1,5 @@
+class ResultValidator:
+    def run_test(self, code):
+        # 模拟自动化验证逻辑
+        # 实际项目中这里会调用 pytest 或运行生成的代码
+        return True, "Success"
